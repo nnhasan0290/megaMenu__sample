@@ -31,7 +31,7 @@ a {
 
 .menu {
   display: flex;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 /* main menu style */
 .menu__item {
@@ -72,7 +72,8 @@ a {
 .menu__submenu .menu__item {
   padding: 0.4rem 2rem;
   display: flex;
-  gap: 4rem;
+  min-width: 230px;
+  justify-content: space-between;
 }
 .menu__submenu .menu__item a {
   font-size: 1rem;
